@@ -1,0 +1,10 @@
+[package]
+name = "greetings"
+version = "0.1.1"
+authors = ["alex2006hw <alex@alex2006hw.com>"]
+description = "Example static library project built for iOS"
+publish = false
+
+[lib]
+name = "greetings"
+crate-type = ["staticlib", "cdylib"]
